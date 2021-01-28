@@ -1,0 +1,251 @@
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+   
+}
+.content {
+    background-image: url(./images/chef-icon.png); 
+    background-size: auto;       
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 25px;
+       
+}
+.content-info {
+    padding-left: 0px;
+    padding-bottom:60px ;
+    text-align: center;
+}
+.content-info h1 {
+    font-size: 65px;
+    margin: 0;
+    padding-top: 37px;
+}
+.content-info h4 {
+    padding-bottom: 0px;
+    color: rgb(146, 145, 145);
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+.container-navbar {
+    display: block;
+}
+.container-info {
+    display: flex;
+    border-bottom: 3px solid#CACACA;
+    border-top:3px solid #CACACA ;
+   
+    
+}
+.navbar {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    text-align: center;
+   
+}
+.navbar a {
+    color:#747474;
+    font-size: 21px;
+    padding: 0 65px;
+}
+
+.navbar:hover {
+    color: blue;
+    background-color:#C4C4C4;
+    transition: .5s;
+    
+}
+.banner {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.banner img {
+    width: 260px;
+    align-items: stretch;
+}
+.banner-info {
+    width: 30%;
+    margin: 0 auto;
+    justify-content: center;
+}
+/*home*/
+.home {
+    display: flex;
+   
+}
+.home img {
+    width: 260px; 
+    align-items: stretch;
+}
+.home-info {
+    width: 30%;
+    margin: 0 auto; 
+}
+/*button*/
+.button1 {
+    padding: 0px 10px;
+    color: white;
+    background-color: rgb(243, 170, 75);
+    border: none;
+    border-radius: 3px;
+    font-size: 17px;
+}
+.button1:hover {
+    cursor: pointer;
+    background-color: rgb(245, 127, 17);
+    transition: .4s;
+}
+.button2 {
+    padding: 0px 10px;
+    color: white;
+    background-color: rgb(240, 194, 68);
+    border: none;
+    border-radius: 3px;
+    font-size: 17px;
+}
+.button2:hover {
+    cursor: pointer;
+    background-color: rgb(245, 127, 17);
+    transition: .4s;
+}
+.button3 {
+    padding: 0px 10px;
+    color: white;
+    background-color: rgb(83, 192, 183);
+    border: none;
+    border-radius: 3px;
+    font-size: 17px;
+}
+.button3:hover {
+    cursor: pointer;
+    background-color: rgb(245, 127, 17);
+    transition: .4s;
+}
+.button4 {
+    padding: 0px 10px;
+    color: white;
+    background-color:#FF0800;
+    border: none;
+    border-radius: 3px;
+    font-size: 17px;
+}
+.button4:hover {
+    cursor: pointer;
+    background-color:#DE1515;
+    transition: .4s;
+}
+.button5 {
+    padding: 0px 10px;
+    color: white;
+    background-color:#44CD00;
+    border: none;
+    border-radius: 3px;
+    font-size: 17px;
+    margin-left: 1px;
+}
+.button5:hover {
+    cursor: pointer;
+    background-color:#38A900;
+    transition: .4s;
+}
+.button6 {
+    padding: 0px 10px;
+    color: white;
+    background-color:#6537BB;
+    border: none;
+    border-radius: 3px;
+    font-size: 17px;
+    ju
+}
+.button6:hover {
+    cursor: pointer;
+    background-color:#68329A;
+    transition: .4s;
+}
+.retseptlar {
+    border: 3px solid#ED003F;
+    background-color: white;
+    padding: 10px 20px;
+    color: #D30823;
+    font-size: 17px;
+    border-radius: 3px;
+    transition:background .5s ;
+}
+.retseptlar:hover {
+    color: white;
+    background-color:#D00035 ;
+    cursor: pointer;
+    border: 3px solid #D00035;
+    transition: color .2s;
+}
+.footer {
+    background-image: url(./images/photo1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 450px;
+    margin-top: 40px;
+
+}
+.tugma {
+    margin: 0 auto;
+    text-align: center;
+}
+.footer-nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+} 
+.main-footer input {
+   padding: 8px 15px;
+   font-size: 17px;
+   margin-top: 150px;
+
+}
+.footer-info {
+    margin-top: 160px;
+    margin-left: 40px;
+}
+.footer-info a {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background-color: #FF0800;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-content: center;
+    color: white;
+    font-size: 19px;
+    border-radius: 3px;
+}
+.footer-info a:hover {
+    background-color: #DE1515;
+    transition: .3s;
+}
+.obuna  {
+    text-align: center;
+    margin-top: 50px;
+   
+}
+.obuna a {
+    color: white;
+    font-size: 21px;
+}
+.obuna a:hover {
+    color: wheat;
+    transition: .3s;
+}
+
+
+
+
+
+
+
